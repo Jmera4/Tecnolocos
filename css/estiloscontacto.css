@@ -1,0 +1,76 @@
+.flex-container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: var(--gris-claro);
+	margin: auto;
+	/* border: 14px solid #000; */
+	outline: 5px solid var(--rosa);
+	max-width: 70vw;
+}
+.form{
+	min-width: 400px;
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+}
+.form__input{
+	width: 100%;
+	padding: 9px;
+	margin: 7px 0;
+	border: none;
+	border-bottom: 3px solid var(--lila);
+	background-color: transparent;
+	color: #fff;
+}
+.form__input::placeholder{
+    color: #fff;
+}
+.form__input:focus{
+	background: linear-gradient(to bottom, #fa3de1, #ac25dc);
+	outline: none;
+	
+}
+.form__input[type="submit"]{
+	background: var(--rosa-m);
+	color: #fff;
+}
+.form textarea{
+	min-height: 150px;
+	resize: none;
+}
+.form-img{
+	flex: 1;
+	padding: 10px;
+	display: flex;
+	min-width: 300px;
+	max-width: 400px;
+
+}
+.form-img div{
+	padding: 20px;
+	
+}
+.img-container{
+	margin: auto;
+	
+}
+.img-container div{
+	background: var(--gris-claro);
+	text-align: center;
+	padding: 40px;
+    margin: auto;
+}
+.form-img img{
+	width: 90%;
+	margin: auto;
+}
+.mapa-cont .subtitulo{
+    margin-top: 25px;
+}
+.contacto-cont{
+    max-width: 80vw;
+    margin: auto;
+    padding: 50px;
+}

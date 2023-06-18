@@ -1,0 +1,49 @@
+.submenu .car{
+	color: #fff;
+	margin-left: 10px;
+	
+}
+.submenu p{
+	justify-content: right;
+	color: #000;
+}
+.submenu .carro{
+	font-size: 25px;
+	right: 50px;
+}
+.submenu #carrito-2{
+	display: none;
+	overflow: auto;
+}
+.submenu:hover #carrito-2{
+	display: block;
+	position: absolute;
+	right: 25px;
+	top: 100%;
+	z-index: 4000;
+	background: #B9B9B9;
+	padding: 20px;
+	min-width: 500px;
+	min-height: 400px;
+	max-height: 85vh;
+	border: 3px solid var(--lila);
+
+}
+.agregar-carrito{
+	margin: 10px 0;
+}
+.carrito-menu{
+	display: flex;
+	justify-content: space-between;
+}
+.lista-carrito{
+	width: 150px;
+}
+.card-body{
+	padding: 10px;
+}
+@media screen and (min-width: 680px){
+	#items{
+		justify-content: center;
+	}
+}
